@@ -1,0 +1,58 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: white;
+}
+
+/* Estilos personalizados de las celdas de encabezado */
+.col-binario {
+    background-color: black;
+    color: rgb(201, 0, 252);
+}
+
+.col-decimal {
+    background-color: black;
+    color: rgb(201, 0, 252);
+}
+
+/* Estilos personalizados de las celdas de datos */
+.dato-binario {
+    background-color: black;
+}
+
+.dato-decimal {
+    background-color: black;
+}
+
+/* Estilo general de las celdas */
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Color de fila alterno */
+tbody tr:nth-child(even) {
+    background-color: black;
+}
+
+/* Efecto hover */
+tbody tr:hover {
+    background-color: black;
+}
+
